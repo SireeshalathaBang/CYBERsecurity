@@ -73,15 +73,4 @@ Datacom's Job Simulation Cyber Security Operations on Forage:
 
 ---
 
-## ⚡ Note
-This repository will be regularly updated as I continue my cybersecurity learning journey and add real-world projects.
-
-**What is meant by Cybersecurity?**
-Cyber security is the practice of protecting data, network, communication, software, servers, computers and other hardware from malicious attacks. With respect to a website, cyber security primarily involves making it secure to prevent hacking, DDoS attacks and unauthorised access to the server. Installing a firewall, deploying SSL certificate, encrypting data and removing vulnerability from the code are some common examples of cyber security measures taken to make a website secure.
-
-**How does cyber security help a business?**
-Most businesses use computer networks and electronic devices to conduct operations and manage the flow of information. Cyber security protects the data of a business and its users from phishing, malware and unauthorised access. For example, an e-commerce website runs the risk of compromising the financial and personal information of its customers if it does not have proper cyber security measures in place.
-
-**What are risks, vulnerabilities and threats? Do they refer to the same thing?**
-There is a subtle difference between these three terms. Vulnerability is a loophole or weakness in the efforts to protect an asset. A threat is someone or something that can exploit the vulnerability to damage or access the asset. Risk refers to the potential loss or damage if someone exploits the vulnerability. For example, if a company does not use data encryption, a hacker can easily get access to the data being transmitted. The lack of encryption is the vulnerability here, while the hacker is a threat and the potential loss due to a data breach is a risk.
 

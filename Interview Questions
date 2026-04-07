@@ -198,40 +198,15 @@ Control categories
 
 **CIA TRIAD**
 
-Confidentiality 
-" Certain information should only be known to certain people"
-     Prevent unauthorized information disclosure 
-- Encryption 
-     Encode messages so only certain people can read it 
-- Access controls 
-     Selectively restrict access to a resource 
-- Two-factor authentication 
-     Additional confirmation before infepehaction is disclosed 
-
-Integrity 
-" Data is stored and transferred as intended 
-    Any modification to the data would be identified 
-- Hashing 
-    Map data of an arbitrary length to data of a fixed length 
-- Digital signatures 
-    Mathematical scheme to verify the integrity of data 
-- Certificates 
-    Combine with a digital signature to verify an individual 
-- Non-repudiation 
-    Provides proof of integrity, can be asserted to be genuine 
-
-Availability 
-"Information is accessible to authorized users"
-    Always at your fingertips 
-- Redundancy 
-    Build services that will always be available 
-- Fault tolerance 
-    System will continue to run, even when a failure occurs 
-- Patching 
-   Stability 
-   Close security holes 
-
-
-
-
+Confidentiality                                                 Integrity                                                       Availability
+"Certain information should only be known to certain people"   "Data is stored and transferred as intended"                    "Information is accessible to authorized users"
+Prevent unauthorized information disclosure                     Any modification to the data would be identified                Always at your fingertips 
+-Encryption                                                    -Hashing                                                       - Redundancy 
+ Encode messages so only certain people can read it             Map data of an arbitrary length to data of a fixed length       Build services that will always be available 
+-Access controls                                               -Digital signatures                                            - Fault tolerance 
+ Selectively restrict access to a resource                      Mathematical scheme to verify the integrity of data             System will continue to run, even when a failure occurs 
+-Two-factor authentication                                     -Certificates                                                  - Patching 
+ Additional confirmation before infepehaction is disclosed      Combine with a digital signature to verify an individual        Close security holes 
+                                                               -Non-repudiation 
+                                                                Provides proof of integrity, can be asserted to be genuine 
 

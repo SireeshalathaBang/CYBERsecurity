@@ -1,15 +1,181 @@
 **What is meant by Cybersecurity?**
-Cyber security is the practice of protecting data, network, communication, software, servers, computers and other hardware from malicious attacks. With respect to a website, cyber security primarily involves making it secure to prevent hacking, DDoS attacks and unauthorised access to the server. Installing a firewall, deploying SSL certificate, encrypting data and removing vulnerability from the code are some common examples of cyber security measures taken to make a website secure.
+Cyber security is the practice of protecting data, network, communication, software, servers, computers and other hardware from malicious attacks.
+With respect to a website, cyber security primarily involves making it secure to prevent hacking, DDoS attacks and unauthorised access to the server. 
+Installing a firewall, deploying SSL certificate, encrypting data and removing vulnerability from the code are some common examples of cyber security measures 
+taken to make a website secure.
 
 **How does cyber security help a business?**
-Most businesses use computer networks and electronic devices to conduct operations and manage the flow of information. Cyber security protects the data of a business and its users from phishing, malware and unauthorised access. For example, an e-commerce website runs the risk of compromising the financial and personal information of its customers if it does not have proper cyber security measures in place.
+Most businesses use computer networks and electronic devices to conduct operations and manage the flow of information. Cyber security protects the data of a 
+business and its users from phishing, malware and unauthorised access. For example, an e-commerce website runs the risk of compromising the financial and personal 
+information of its customers if it does not have proper cyber security measures in place.
 
 **What are risks, vulnerabilities and threats?**
-Do they refer to the same thing? There is a subtle difference between these three terms. Vulnerability is a loophole or weakness in the efforts to protect an asset. A threat is someone or something that can exploit the vulnerability to damage or access the asset. Risk refers to the potential loss or damage if someone exploits the vulnerability. For example, if a company does not use data encryption, a hacker can easily get access to the data being transmitted. The lack of encryption is the vulnerability here, while the hacker is a threat and the potential loss due to a data breach is a risk.
+Do they refer to the same thing? There is a subtle difference between these three terms. Vulnerability is a loophole or weakness in the efforts to protect an asset.
+A threat is someone or something that can exploit the vulnerability to damage or access the asset. Risk refers to the potential loss or damage if someone exploits
+the vulnerability. For example, if a company does not use data encryption, a hacker can easily get access to the data being transmitted. The lack of encryption is 
+the vulnerability here, while the hacker is a threat and the potential loss due to a data breach is a risk.
+
+**Common types of cyber attacks**: 
+- Malware (Malicious Software): Software designed to disrupt, damage, or gain unauthorized access to systems. Types include viruses, worms, spyware, and Trojans. 
+- Ransomware: A type of malware that encrypts a victim's data, with attackers demanding a ransom payment to restore access. 
+- Phishing: Deceptive emails, messages, or websites designed to trick individuals into revealing sensitive information like passwords or financial details. 
+- Denial-of-Service (Dos) and DDoS: Overwhelming a system, server, or network with excessive traffic, causing it to slow down or crash, rendering it unusable. 
+- Man-in-the-Middle (MitM): An attacker secretly intercepts and relays communication between two parties, allowing them to steal data, common on unsecured Wi-Fi. 
+- SQL Injection (SQLi): Malicious code is inserted into a server that uses SQL, forcing it to reveal confidential information. 
+- Zero-Day Exploits: Attacks targeting a software or hardware vulnerability that is unknown to the vendor, occurring in the "zero-day" window before a patch is 
+  released. 
+- Spyware is malicious software that secretly installs on devices to steal sensitive data—such as passwords, banking details, and browsing habits—sending it to 
+  third parties without consent.
+- Brute Force Attacks	A brute force attack is uses a trial-and-error approach to systematically guess login info, credentials, and encryption keys. The attacker 
+  submits combinations of usernames and passwords until they finally guess correctly.
+- Cross-Site Scripting (XSS): is a code injection attack in which an adversary inserts malicious code within a legitimate website. The code
+  then launches as an infected script in the user’s web browser, enabling the attacker to steal sensitive information or impersonate the user. Web forums, message 
+  boards, blogs and other websites that allow users to post their own content are the most susceptible to XSS attacks.
+- Malvertising: leverage many other techniques, such as SEO poisoning, to carry out the attack. Typically, the attacker begins by breaching a third-party server, 
+  which allows the cybercriminal to inject malicious code within a display ad or some element thereof, such as banner ad copy, creative imagery or video content.
+  Once clicked by a website visitor, the corrupted code within the ad will install malware or adware on the user’s computer.
+- Adware: is a type of spyware that watches a user’s online activity in order to determine which ads to show them. While adware is not inherently malicious, it has
+  an impact on the performance of a user’s device and degrades the user experience.
+- Trojan: is malware that appears to be legitimate software disguised as native operating system programs or harmless files like free downloads. Trojans are 
+  installed through social engineering techniques such as phishing or bait websites. The zeus trojan malware, a variant, has the goal accessing financial information 
+  and adding machines to a botnet.
+- Worms: is a self-contained program that replicates itself and spreads its copies to other computers. A worm may infect its target through a software vulnerability 
+  or it may be delivered via phishing or smishing. Embedded worms can modify and delete files, inject more malicious software, or replicate in place until the 
+  targeted system runs out of resources.
+- Data Poisoning: is a type of cyberattack in which an adversary intentionally compromises a training dataset used by an Artificial Intelligence or Machine Learning
+  model to manipulate the operation of that model. When dataset is manipulated during the training phase, the adversary can introduce biases, intentionally create 
+  erroneous outputs, introduce vulnerabilities, or otherwise influence predictive capabilities of the model.
+- Spear Phishing: is a type of phishing attack that targets specific individuals or organizations typically through malicious emails. The goal of spear phishing is
+  to steal sensitive information such as login credentials or infect the targets’ device with malware.
+- Whaling: attack is a type of social engineering attack specifically targeting senior or C-level executive employees with the purpose of stealing money or 
+  information, or gaining access to the person’s computer in order to execute further cyberattacks.
+- Domain Spoofing: is a form of phishing where an attacker impersonates a known business or person with fake website or email domain to fool people into the 
+  trusting them. Typically, the domain appears to be legitimate at first glance, but a closer look will reveal subtle differences.
+- Email Spoofing: is a type of cyberattack that targets businesses by using emails with forged sender addresses. Because the recipient trusts the alleged sender,
+  they are more likely to open the email and interact with its contents, such as a malicious link or attachment.
+- Pretexting: attackers get access to information, a system, or a user by posing a false scenario that gains the victim's trust. This includes posing as an 
+  investment banker, an HR employee, or even an IT specialist.
+- Business email compromise (BEC): In a BEC attack, attackers assume the identity of a trusted user to trick employees or company customers into making payments 
+  or sharing data, among other things.
+- Disinformation campaign: are deliberate efforts to spread false information, especially for political or war-related reasons. Adversaries leverage social media
+  networks that reach vast audiences to amplify false narratives through the prolific use of bots and fake accounts, creating a false sense of consensus.
+- Quid Pro Quo:	Using the quid pro quo technique, attackers target users with an offer to pay in exchange for a product or service.
+- Honeytrap: attacks target individuals looking for love or friendship on dating apps/websites. Attackers create fake profiles and leverage the relationship built
+  overtime to trick the victim into giving them money, information, or access to their network to install malware.
+- Tailgating/Piggybacking: also known as piggybacking, is a type of attack conducted in person by tagging along behind a company employee and asking them to hold
+  the door open. Once the adversary is inside the facilities, they physically try to steal or destroy sensitive information.
+- ARP Spoofing: or ARP poisoning is a form of spoofing attack that hackers use to intercept data. A hacker commits an ARP spoofing attack by tricking one device 
+  into sending messages to the hacker instead of the intended recipient. This way, the hacker gains access to your device’s communications, including sensitive data.
+- Buffer Overflow Attack: A buffer overflow occurs when a program writes more data to a storage area (buffer) than it can hold, causing the excess data to overflow into adjacent 
+  memory. An attacker sends crafted input to a program, forcing it to overwrite memory, specifically targeting the return address to hijack control of the 
+  program. This can lead to Denial of Service (DOS) (crashing the application), unauthorized access, or remote code execution (allowing the attacker to run 
+  malicious code). Types: Stack-based (most common) and Heap-based (more complex).  
+- Memory Injection Attack: Memory injection is a technique where malicious code is forced into the memory of a legitimate, running process. Attackers use APIs 
+  (like WriteProcessMemory or CreateRemoteThread in 
+  to insert code into a trusted process, allowing it to hide in plain sight.Because the code runs inside a trusted process, it can evade detection by traditional 
+  antivirus software and inherit the same high-level permissions. 
+. 
+
+**Key escrow**
+  is the practice of storing encryption keys, passwords, or other cryptographic data with a trusted third party. It allows authorized entities (like employers or 
+  authorities) to access encrypted data during emergencies, employee departures, or legal situations. It balances data security with accessibility, ensuring data 
+  is not permanently lost. 
+
+**Shadow IT**
+  refers to any software, hardware, or cloud services used for business purposes without explicit approval or oversight from an organization's IT department.
+  While used to improve efficiency, these unsanctioned tools-such as personal Dropbox, Slack, or SaaS apps-create major security risks like data leakage, compliance
+  violations, and increased attack surfaces.
 
 **Who are white hat, grey hat and black hat hackers?**
-White hat hackers are security specialists who attempt to hack a system for the benefit of the organisation to test for vulnerabilities. If a white hat hacker performs an unauthorised activity, they are called grey hat hackers. Black hat hackers are those who break into a system with malicious intent.
+  White hat hackers are security specialists who attempt to hack a system for the benefit of the organisation to test for vulnerabilities. If a white hat hacker
+  performs an unauthorised activity, they are called grey hat hackers. Black hat hackers are those who break into a system with malicious intent.
 
+
+**Endpoint Detection and Response (EDR)**
+is a cybersecurity solution that continuously monitors end-user devices (laptops, servers, mobile) to detect, investigate, and remediate advanced threats like 
+ransomware in real-time. It goes beyond traditional antivirus by using behavioral analysis and Al to identify suspicious activity, providing deep forensic visibility
+to stop attacks and reduce breach impact.
+
+
+**Bug bounty programs** 
+It strengthen security by incentivizing ethical hackers to identify and responsibly report vulnerabilities before malicious actors can exploit them. These programs
+use crowdsourced, global talent to uncover flaws that automated tools miss, covering areas like web applications and digital infrastructure, often offering financial
+rewards based on severity. 
+
+
+**Fail Open** 
+- When a system fails, it allows access. 
+- Focus: Availability 
+Example: 
+A security door connected to an electronic lock. If power fails, the door unlocks automatically, so people can exit the building. If a firewall crashes and lets all
+traffic pass, it is fail open. 
+**Fail Closed**
+- When a system fails, it blocks access. 
+- Focus: Security 
+Example: 
+An online banking login system. 
+If the authentication server fails, no one can log in. 
+
+
+**Privacy vs Secrecy**
+Privacy                                                   Secrecy 
+Protects personal information from being exposed.         Keeping information hidden from everyone except authorized people. 
+Focuses on individual rights and personal data.           Focuses on hiding sensitive information. 
+Example: Protecting someone's medical records.            Example: Government secret documents. 
+In short: 
+- Privacy - Protecting personal information 
+- Secrecy - Keeping information hidden 
+
+
+**Brute force** means trying all possible combinations until the correct one is found 🔐 
+👉 In cybersecurity: A hacker keeps trying many passwords again and again until they successfully log in. 
+
+
+
+**Common Cybersecurity Reports**
+1 Incident Report - Details a cyber attack or breach 
+2 Vulnerability Assessment Report - Lists security weaknesses found in systems 
+3 Penetration Testing Report - Shows how systems were hacked during testing 
+4 Risk Assessment Report - Identifies risks and their impact on business 
+5 Compliance / Audit Report - Checks if company follows standards like NIST, ISO 
+6 Threat Intelligence Report - Information about current cyber threats 
+7 Security Monitoring / SOC Report - Daily/weekly logs and alerts from security operations 
+
+
+**Matrix Table **
+Step 1: Define Levels 
+Likelihood: 
+- Low ( 1 ) 
+- Medium (2) 
+- High (3) 
+Impact: 
+- Low ( 1 ) 
+- Medium (2) 
+- High (3) 
+
+Step 2: Create 
+Impact/Likelihood      Low (1)      Medium (2)     High (3) 
+High (3)              Medium        High           Critical
+Medium (2)            Low           Medium          High
+Low (1)               Low            Low           Medium  
+
+
+**How often or when the risk assessment is performed**
+1 Ad Hoc Risk Assessment 
+- Done whenever needed, not scheduled. 
+- Usually triggered by a new threat or incident. 
+* Example: Assessing risk after a cyber attack. 
+2 Recurring Risk Assessment 
+- Conducted regularly at fixed intervals. 
+- Example: every year or every quarter. 
+  Common in compliance frameworks like ISO/IEC 27001. 
+3 One-Time Risk Assessment 
+- Performed only once for a specific purpose. 
+* Example: Risk analysis before launching a new application or system.  
+4 Continuous Risk Assessment 
+- Ongoing monitoring of risks in real time. 
+- Uses security tools, logs, and alerts to track risks continuously. 
+* Common in modern cybersecurity environments and frameworks like the NIST Cybersecurity Framework. 
 
 **Security Controls** 
 Control categories 
@@ -64,3 +230,8 @@ Availability
 - Patching 
    Stability 
    Close security holes 
+
+
+
+
+

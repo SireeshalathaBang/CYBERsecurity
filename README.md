@@ -68,9 +68,6 @@ Datacom's Job Simulation Cyber Security Operations on Forage:
 
 ---
 
-## Contact
-- LinkedIn: linkedin.com/in/sireeshalatha-bangaru18
-- Email: srilathabalu18@gmail.com
 
 ---
 
